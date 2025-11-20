@@ -7,8 +7,8 @@ import argparse
 def main():
     parser = argparse.ArgumentParser(description="Procedural Dungeon Generator")
 
-    parser.add_argument("--seed", type=int, help="Set a specific seed")
-    parser.add_argument("--ascii", action="store_true", help="Show ASCII output")
+    parser.add_argument("--seed", type=int)
+    parser.add_argument("--ascii", action="store_true")
 
     args = parser.parse_args()
 
@@ -27,7 +27,6 @@ def main():
     path = render(grid)
     print(f"Saved : {path}")
     print(f"Seed  : {used_seed}")
-
 
 if __name__ == "__main__":
     main()
