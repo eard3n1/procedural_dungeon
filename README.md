@@ -1,4 +1,4 @@
-<h1>procedural_dungeon</h1>
+<h1>dungeon_generator</h1>
 <p>A minimal seed-based procedural dungeon generator with a simple CLI.</p>
 <img src="example.png" alt="example" style="width:256px;height:256px;">
 
